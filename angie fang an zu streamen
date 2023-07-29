@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Angie's Streaming Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+  <div id="streaming-text">Angie fang an zu streamen</div> <!-- Display the text -->
+</body>
+</html>
