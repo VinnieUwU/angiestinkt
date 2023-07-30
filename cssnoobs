@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rainbow Text</title>
+  <style>
+    @keyframes rainbow-text {
+      0% {
+        color: red;
+      }
+      16.66% {
+        color: orange;
+      }
+      33.33% {
+        color: yellow;
+      }
+      50% {
+        color: green;
+      }
+      66.66% {
+        color: blue;
+      }
+      83.33% {
+        color: indigo;
+      }
+      100% {
+        color: violet;
+      }
+    }
+
+    .rainbow {
+      animation: rainbow-text 5s infinite;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="rainbow">
+    <h1>CSS is for noobs Angie</h1>
+  </div>
+</body>
+</html>
